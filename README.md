@@ -1,16 +1,48 @@
-# flutter_application_1
+# 📱 Aplikasi Keuangan Pribadi - Flutter
 
-A new Flutter project.
+Aplikasi Keuangan Pribadi ini merupakan hasil skripsi yang dibangun menggunakan **Flutter**. Aplikasi ini membantu pengguna dalam mencatat pemasukan, pengeluaran, memantau saldo harian, hingga menampilkan statistik keuangan secara visual dan interaktif.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 Fitur Utama
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ **Pencatatan Transaksi**
+  - Input pemasukan & pengeluaran
+  - Kategori transaksi (Makan, Transportasi, Gaji, dll)
+- 📊 **Ringkasan & Statistik**
+  - Total saldo saat ini
+  - Grafik batang & pie chart bulanan
+- 🔍 **Pencarian & Filter**
+  - Cari transaksi berdasarkan keyword
+  - Filter berdasarkan tanggal, kategori, dan nominal
+- 🧠 **Notifikasi Pengingat**
+  - Pengingat jika pengeluaran melebihi batas harian
+- 🎨 **UI/UX Modern**
+  - Responsive design dengan animasi halus
+  - Floating Action Button (FAB) animasi
+- ☁️ **(Opsional) Sinkronisasi Cloud**
+  - Penyimpanan lokal & opsi backup ke Firebase
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📷 Tampilan Aplikasi
+
+| Beranda             | Tambah Transaksi     | Statistik |
+|---------------------|----------------------|-----------|
+| ![Home](screenshots/home.png) | ![Form](screenshots/form.png) | ![Stats](screenshots/stats.png) |
+
+---
+
+## 🛠 Teknologi yang Digunakan
+
+- **Flutter** (Framework utama)
+- **Dart** (Bahasa pemrograman)
+- **Provider** / Riverpod (State management)
+- **SQLite** (Penyimpanan lokal)
+- **Charts_flutter / fl_chart** (Visualisasi data)
+- **GSAP / Rive** (opsional animasi interaktif)
+
+---
+
+## 📂 Struktur Folder
+
